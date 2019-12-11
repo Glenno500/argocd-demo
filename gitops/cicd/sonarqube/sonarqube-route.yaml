@@ -6,7 +6,7 @@ metadata:
   name: sonarqube
   namespace: cicd
 spec:
-  host: sonarqube-cicd2.apps-crc.testing
+  host: sonarqube-cicd.apps.openshift.openshift.npe-rdg.net
   subdomain: ""
   to:
     kind: Service
@@ -16,7 +16,7 @@ spec:
 status:
   ingress:
   - conditions:
-    host: sonarqube-cicd2.apps-crc.testing
-    routerCanonicalHostname: apps-crc.testing
+    host: sonarqube-cicd.apps.openshift.openshift.npe-rdg.net
+    routerCanonicalHostname: apps.openshift.openshift.npe-rdg.net
     routerName: default
     wildcardPolicy: None

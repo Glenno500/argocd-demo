@@ -10,7 +10,7 @@ metadata:
   name: nexus
   namespace: cicd
 spec:
-  host: nexus-cicd.apps-crc.testing
+  host: nexus-cicd.apps.openshift.openshift.npe-rdg.net
   port:
     targetPort: 8081-tcp
   subdomain: ""
@@ -22,7 +22,7 @@ spec:
 status:
   ingress:
   - conditions:
-    host: nexus-cicd.apps-crc.testing
-    routerCanonicalHostname: apps-crc.testing
+    host: nexus-cicd.apps.openshift.openshift.npe-rdg.net
+    routerCanonicalHostname: apps.openshift.openshift.npe-rdg.net
     routerName: default
     wildcardPolicy: None

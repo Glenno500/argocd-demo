@@ -15,7 +15,7 @@ argocd repo list
 
 argocd app create --project default \
     --name java-demo-app \
-    --repo https://github.com/pittar/argocd-demo.git \
+    --repo https://github.com/Glenno500/argocd-demo.git \
     --path gitops/java \
     --dest-server https://kubernetes.default.svc \
     --dest-namespace argocd \

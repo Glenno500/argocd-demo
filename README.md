@@ -23,5 +23,5 @@ argocd app create --project default \
 
 argocd app list
 
-argocd app sync java-app-demo
+argocd app sync java-demo-app
 ```

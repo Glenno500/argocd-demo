@@ -8,7 +8,8 @@ There seems to be a problem with the CLI and CRC 4.2.2 (at least on MacOS).  UI 
 ## Add Repo and App
 
 ```
-argocd repo add https://github.com/pittar/argocd-demo.git
+#  original pulled from Andrew's demo at https://github.com/pittar/argocd-demo
+argocd repo add https://github.com/Glenno500/argocd-demo.git
 
 argocd repo list
 
